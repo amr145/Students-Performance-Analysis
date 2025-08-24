@@ -29,3 +29,19 @@ Student-Performance/
 │ ├── train_model.py
 │ └── visualize.py
 └── README.md
+
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/amr145/student-performance.git
+   cd student-performance
+
+
+pip install -r requirements.txt
+
+jupyter notebook notebooks/analysis.ipynb
+
+jupyter notebook notebooks/analysis.ipynb
+
+python src/train_model.py
+

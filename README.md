@@ -5,43 +5,41 @@ This project analyzes and visualizes **student performance data** to uncover ins
 It applies **data preprocessing, exploratory data analysis (EDA), and machine learning models** to predict students' performance.  
 
 ## Features
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA) with visualizations
-- Correlation analysis between features and performance
-- Machine learning models for prediction (Regression / Classification)
-- Interactive plots and performance metrics
+- Data cleaning and preprocessing  
+- Exploratory Data Analysis (EDA) with visualizations  
+- Correlation analysis between features and performance  
+- Machine learning models for prediction (Regression / Classification)  
+- Interactive plots and performance metrics  
 
 ## Tech Stack
-- Python
-- Pandas & NumPy
-- Matplotlib & Seaborn
-- Scikit-learn
-- Jupyter Notebook
+- Python  
+- Pandas & NumPy  
+- Matplotlib & Seaborn  
+- Scikit-learn  
+- Jupyter Notebook  
 
 ## Project Structure
 Student-Performance/
 ├── data/
-│ └── students.csv
+│   └── students.csv
 ├── notebooks/
-│ └── analysis.ipynb
+│   └── analysis.ipynb
 ├── src/
-│ ├── preprocess.py
-│ ├── train_model.py
-│ └── visualize.py
+│   ├── preprocess.py
+│   ├── train_model.py
+│   └── visualize.py
 └── README.md
 
 ## How to Run
 1. Clone the repository:
-   ```bash
    git clone https://github.com/amr145/student-performance.git
    cd student-performance
 
+2. Install dependencies:
+   pip install -r requirements.txt
 
-pip install -r requirements.txt
+3. Run the analysis notebook:
+   jupyter notebook notebooks/analysis.ipynb
 
-jupyter notebook notebooks/analysis.ipynb
-
-jupyter notebook notebooks/analysis.ipynb
-
-python src/train_model.py
-
+4. Or run the model script:
+   python src/train_model.py

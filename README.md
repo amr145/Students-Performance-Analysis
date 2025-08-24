@@ -19,3 +19,13 @@ It applies **data preprocessing, exploratory data analysis (EDA), and machine le
 - Jupyter Notebook
 
 ## Project Structure
+Student-Performance/
+├── data/
+│ └── students.csv
+├── notebooks/
+│ └── analysis.ipynb
+├── src/
+│ ├── preprocess.py
+│ ├── train_model.py
+│ └── visualize.py
+└── README.md
